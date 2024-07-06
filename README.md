@@ -2,7 +2,6 @@
 📡 Repository for Summer Internship 2024 "Intro To Cube-sat and Satellite Communication"
 
 #Lab Exercies
-![esp 32](https://github.com/Pooja6608/SI-2024-Cubesat-SU/assets/173778746/7c671f96-f207-4ba6-963a-a068764fbda8)
 
 
 ##Lab-1 Introduction To ESP32
@@ -12,38 +11,7 @@
 
 ##Lab-2 Blinking Of LED
 
-```C
-#define LED1 2
-#define LED2 27
-#define LED3 33
-#define LED4 19
-void setup() {
-  // initialize digital pin LED as an output.
-  pinMode(LED1, OUTPUT);
-  pinMode(LED2, OUTPUT);
-  pinMode(LED3, OUTPUT);
-  pinMode(LED4, OUTPUT);
-}
-void loop() {
-  digitalWrite(LED1, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(100);                      // wait for a second
-  digitalWrite(LED1, LOW);   // turn the LED off by making the voltage LOW
-  delay(100);                      // wait for a second
-  digitalWrite(LED2, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(200);                      // wait for a second
-  digitalWrite(LED2, LOW);   // turn the LED off by making the voltage LOW
-  delay(200);                        // wait for a second
-  digitalWrite(LED3, HIGH);   // turn the LED off by making the voltage LOW
-  delay(300);                      // wait for a second
-  digitalWrite(LED3, LOW);  // turn the LED on (HIGH is the voltage level)
-  delay(300);                      // wait for a second
-  digitalWrite(LED4, HIGH);   // turn the LED off by making the voltage LOW
-  delay(400);                      // wait for a second
-  digitalWrite(LED4, LOW);  // turn the LED on (HIGH is the voltage level)
-  delay(400);                      // wait for a second
-  
-}
-```
+[blinking led](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20blinking)
 ##Lab-3 Dimming LED
 [led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20dimming)
 
