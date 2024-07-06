@@ -2,8 +2,11 @@
 📡 Repository for Summer Internship 2024 "Intro To Cube-sat and Satellite Communication"
 
 #Lab Exercies
+![esp 32](https://github.com/Pooja6608/SI-2024-Cubesat-SU/assets/173778746/7c671f96-f207-4ba6-963a-a068764fbda8)
+
 
 ##Lab-1 Introduction To ESP32
+
 
 - [Datasheet ESP32](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
 
