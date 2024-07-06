@@ -42,6 +42,7 @@ void loop() {
 }
 ```
 ##Lab-3 Dimming LED
+[led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20dimming)
 
 Parameters FRom LED Datasheet
 
