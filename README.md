@@ -22,15 +22,15 @@ A CubeSat is a square-shaped miniature satellite (10 cm × 10 cm × 10 cm —rou
 ## Lab-1 Introduction To ESP32
 
 
-- [Datasheet ESP32](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
+* [Datasheet ESP32](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/docs/Datasheet-ESP32.pdf)
 
 ## Lab-2 Blinking Of LED
 
-[blinking led](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20blinking)
+* [blinking led](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20blinking)
 
 ## Lab-3 Dimming LED
 
-[led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20dimming)
+* [led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20dimming)
 
 Parameters From LED Datasheet
 
@@ -45,4 +45,4 @@ Parameters From LED Datasheet
 
 ## Lab-4 Dimming Multiple LED
 
-[multiple led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LEDfadeupdown)
+* [multiple led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LEDfadeupdown)
