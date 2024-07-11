@@ -1,0 +1,9 @@
+#define ledcSetup
+#define ledcAttachPin
+const int PWM_CHANNEL=0;
+const int PWM_FREQ=500;
+const int PWM_RESOLUTION=8;
+
+const int MAX_DUTY_CYCLE=(int)(pow(2,PWM_RESOLUTION)-1);
+const int LED_OUTPUT_PIN=5;
+const int DELAY_MS=1000;
