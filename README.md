@@ -1,5 +1,8 @@
-# SI-2024-Cubesat-SU
+![giiiii](https://github.com/Pooja6608/SI-2024-Cubesat-SU/assets/173778746/1a53d91c-578d-456c-b0a7-3953ec5a0314)# SI-2024-Cubesat-SU
 📡 Repository for Summer Internship 2024 "Intro To Cube-sat and Satellite Communication"
+
+![Uploading giiiii.png…]
+
 
 #Lab Exercies
 
