@@ -41,3 +41,8 @@ Parameters From LED Datasheet
 |Colour|Red|
 |Total Capacitance|45pF|
 |Operating Range|-40 to 85 C|
+
+
+## Lab-4 Dimming Multiple LED
+
+[multiple led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LEDfadeupdown)
