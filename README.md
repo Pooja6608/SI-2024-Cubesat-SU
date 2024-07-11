@@ -3,6 +3,11 @@
 
 
 
+![cubesat](https://github.com/Pooja6608/SI-2024-Cubesat-SU/assets/173778746/20887eaf-a5c5-4917-b250-b344cb5afb1c)
+
+##CUBESAT
+
+
 
 
 #Lab Exercies
