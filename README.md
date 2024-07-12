@@ -190,7 +190,8 @@ The development of a CubeSat typically follows several key phases, each essentia
   It uses only 2 bi-directional open-drain lines for data communication called SDA and SCL. Both these lines are pulled high.
   Serial Data (SDA) – Transfer of data takes place through this pin.
   Serial Clock (SCL) – It carries the clock signal.
-  [I2C](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/i2c%20oled%20display)
+- Here is the code :
+  [I2C](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/I2C%20OLED%20display)
 #### Lab 8: Introduction Signal Processing using Python
   
   - Compute the `FFT` of the above signal and plot it.
@@ -207,9 +208,13 @@ The development of a CubeSat typically follows several key phases, each essentia
   - Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
 
 #### Lab 12: Communication between two LoRa nodes
-  - Sending Text packets and receiving the text packets with *RSSI (Received Signal 
-  - Strength Indicator)* and *SNR* through Serial monitor.
-  - Sending Temperature and humidity packets and receiving the same packets with RSSI (Received Signal Strength Indicator) and SNR through a Serial monitor as well as an OLED display.
+ - We have sent text packets and received the text packets with RSSI (Received Signal Strength Indicator) and SNR through Serial monitor.
+ - [sender](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/transmitter)
+
+- [reciever](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/reciever)
+
+We had also sensed temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets.
+[temperature and humidity](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/temp%20sensor)
 #### Lab 13: LoRa one-to-many communication setup**
   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
 #### Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
