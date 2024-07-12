@@ -140,6 +140,8 @@ The development of a CubeSat typically follows several key phases, each essentia
     ![Screenshot (15)](https://github.com/user-attachments/assets/a6595001-6e97-4f2e-968e-9f886168494d)
  * Here is the code to blink a LED
 
+   
+
    * [blinking led](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/led%20blinking)   
 
 
@@ -159,7 +161,9 @@ The development of a CubeSat typically follows several key phases, each essentia
 
 #### Lab 3: Dimming LED using PWM
   - In this exercise we  used the ESP32 to control the light intensity of an external LED using PWM signal.
-     ![image](https://github.com/user-attachments/assets/69a3bc94-6c25-4f7d-8c11-9b7fa8ad61c7)
+     ![image](https://github.com/user-attachments/assets/5546c104-5b4c-4a7f-8460-43028fc1850a)
+
+
 
   - Here is the code to dimming LED using PWM
 
