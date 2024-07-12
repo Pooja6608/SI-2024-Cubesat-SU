@@ -70,7 +70,8 @@ The development of a CubeSat typically follows several key phases, each essentia
      
 ![image](https://github.com/user-attachments/assets/35a1a09f-b3d0-48b5-811d-957acd45a6b9)
 ## Launching 
- ![Uploading two_cubesats_deployed_from_the_international_space_station.gif…]()
+ ![two_cubesats_deployed_from_the_international_space_station](https://github.com/user-attachments/assets/6e151d27-4012-44b4-98cd-94ab9e8f2003)
+
 
 
 
@@ -254,7 +255,7 @@ The link to our tiny GS research station is
 We had recieved about 49 telemetery packets from the different satelites. The data is as follows--[SITBBS_02.xlsx](https://github.com/user-attachments/files/16190096/SITBBS_02.xlsx)
 
 
-![image](https://github.com/user-attachments/assets/152789fd-5103-4762-9fdb-edcab2f391de)
+
 
 
 
