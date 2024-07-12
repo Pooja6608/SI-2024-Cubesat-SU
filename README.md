@@ -175,6 +175,13 @@ The development of a CubeSat typically follows several key phases, each essentia
        |Colour|Red|
        |Total Capacitance|45pF|
        |Operating Range|-40 to 85 C|
+     
+ -  Parameters From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) :
+   
+       | Parameters | Values |
+       |------------|--------|
+       |max output voltage | 4.34 V|
+       | max output current that GPIO can source from supply to load | .06mA |
 #### Lab 4: Dimming multiple LEDs
    - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
    -  Here is the code to dimming LED using PWM:
@@ -261,15 +268,12 @@ We had recieved about 49 telemetery packets from the different satelites. The da
 
 #### Lab 18: Processing TLE data with Python
   A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
-  suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. The TLE data representation is specific to the simplified perturbations 
-  models (SGP, SGP4, SDP4, SGP8 and SDP8), so any algorithm using a TLE as a data source must implement one of the SGP models to correctly compute the state at a time of interest. TLEs can describe the 
-  trajectories only of Earth-orbiting objects. TLEs are widely used as input for projecting the future orbital tracks of space debris for purposes of characterizing "future debris events to support risk 
-  analysis, close approach analysis, collision avoidance maneuvering" and forensic analysis
+  suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
 
-  code for latitude and longitude generation using TLE is as follows->[TLE](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
+   * Here is the  code for latitude and longitude generation using TLE is as follows->[here](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
 
-   Latitude was generated to be as 33.07590399036185 longitude was -39.341103283558745 and altitude was 830.8149737295089 kms
-  the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
+  
+  * the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
  
 
 
