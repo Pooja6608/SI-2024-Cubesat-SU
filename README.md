@@ -183,6 +183,14 @@ The development of a CubeSat typically follows several key phases, each essentia
 
 #### Lab 7: I2C-based OLED Display control
   - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
+
+  - I2C stands for Inter-Integrated Circuit. It is a bus interface connection protocol incorporated into devices for serial communication. It was originally designed by Philips Semiconductor in 1982. Recently, 
+  it is a widely used protocol for short-distance communication. It is also known as Two Wired Interface(TWI).
+  Working of I2C Communication Protocol :
+  It uses only 2 bi-directional open-drain lines for data communication called SDA and SCL. Both these lines are pulled high.
+  Serial Data (SDA) – Transfer of data takes place through this pin.
+  Serial Clock (SCL) – It carries the clock signal.
+  [I2C](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/i2c%20oled%20display)
 #### Lab 8: Introduction Signal Processing using Python
   
   - Compute the `FFT` of the above signal and plot it.
