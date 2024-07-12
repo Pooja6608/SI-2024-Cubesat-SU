@@ -250,7 +250,7 @@ We had recieved about 49 telemetery packets from the different satelites. The da
 
   code for latitude and longitude generation using TLE is as follows->[TLE](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
 
-  ###### Latitude was generated to be as 33.07590399036185 longitude was -39.341103283558745 and altitude was 830.8149737295089 kms
+   Latitude was generated to be as 33.07590399036185 longitude was -39.341103283558745 and altitude was 830.8149737295089 kms
   the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
  
 
