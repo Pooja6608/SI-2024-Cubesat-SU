@@ -2,7 +2,8 @@
 
 
 
-![cubesat](https://github.com/Pooja6608/SI-2024-Cubesat-SU/assets/173778746/20887eaf-a5c5-4917-b250-b344cb5afb1c)
+![csli_compliation_gif](https://github.com/user-attachments/assets/e6f466a1-aa49-4baa-aaab-dbbdb22d5d00)
+
 # Introduction To CubeSats
 
   ## CUBESAT
@@ -68,6 +69,9 @@ The development of a CubeSat typically follows several key phases, each essentia
    - *Lessons Learned*: Conduct a review to identify lessons learned and areas for improvement in future CubeSat missions.
      
 ![image](https://github.com/user-attachments/assets/35a1a09f-b3d0-48b5-811d-957acd45a6b9)
+## Launching 
+ ![Uploading two_cubesats_deployed_from_the_international_space_station.gif…]()
+
 
 
      
