@@ -113,7 +113,7 @@ The development of a CubeSat typically follows several key phases, each essentia
 # Lab Exercies
 
 
- - **Lab 1: Intro to ESP32 Programming**
+ #### Lab 1: Intro to ESP32 Programming
 
   - The ESP-32 is a series of low-cost, low-power system-on-chip (SoC) microcontrollers designed by Espressif Systems. It is widely used in Internet of Things (IoT) applications due to its versatility, capability, and affordability. Here are the key features and characteristics of the ESP-32:
 
@@ -143,7 +143,7 @@ The development of a CubeSat typically follows several key phases, each essentia
   
 
 
-- **Lab 2: Intro to GPIO programming**
+ #### Lab 2: Intro to GPIO programming
 
    ![image](https://github.com/user-attachments/assets/b70a1b50-0c8d-4161-9c34-f7240978e419)
 
@@ -152,7 +152,7 @@ The development of a CubeSat typically follows several key phases, each essentia
 
 
 
-- **Lab 3: Dimming LED using PWM**
+#### Lab 3: Dimming LED using PWM
   - In this exercise we  used the ESP32 to control the light intensity of an external LED using PWM signal.
      ![image](https://github.com/user-attachments/assets/69a3bc94-6c25-4f7d-8c11-9b7fa8ad61c7)
 
@@ -170,49 +170,47 @@ The development of a CubeSat typically follows several key phases, each essentia
        |Colour|Red|
        |Total Capacitance|45pF|
        |Operating Range|-40 to 85 C|
-- **Lab 4: Dimming multiple LEDs**
+#### Lab 4: Dimming multiple LEDs
    - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
    -  Here is the code to dimming LED using PWM:
      * [multiple led dimming](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LEDfadeupdown)
-- **Lab 5: Printing data in the serial monitor**
+#### Lab 5: Printing data in the serial monitor
   - The **Serial Monitor** is an essential tool when creating projects with Arduino. It can be used as a debugging tool, testing concepts, or communicating directly with the Arduino board.
   - The **Arduino IDE 2** has the Serial Monitor tool integrated with the editor, which means that no external window is opened when using the Serial Monitor. This means that you can have multiple windows open, each with its own Serial Monitor.
 
-- **Lab 6: Controlling an LED through serial monitor**
+#### Lab 6: Controlling an LED through serial monitor
   - Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands. 
 
-- **Lab 7: I2C-based OLED Display control**
+#### Lab 7: I2C-based OLED Display control
   - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
-- **Lab 8: Introduction Signal Processing using Python**
+#### Lab 8: Introduction Signal Processing using Python
   
   - Compute the `FFT` of the above signal and plot it.
     - We  noticed that  the FFT resolution is very limited for a single cycle.
   - Created a another  signal of frequency `3MHz`, add it to above signal and do `FFT` for the resultant signal.
   
-- **Lab 9: I2C temperature sensor interface**
+#### Lab 9: I2C temperature sensor interface
   - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
 
-- **Lab 10: Introduction to LoRa module**
+#### Lab 10: Introduction to LoRa module
   - Introduction to architecture and pin configuration of *Ra-02 Lora transceiver module* and *SPI (Serial Peripheral Interface)* communication.
 
-- **Lab 11: LoRa communication**
+#### Lab 11: LoRa communication
   - Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
 
-- **Lab 12: Communication between two LoRa nodes**
+#### Lab 12: Communication between two LoRa nodes
   - Sending Text packets and receiving the text packets with *RSSI (Received Signal 
   - Strength Indicator)* and *SNR* through Serial monitor.
   - Sending Temperature and humidity packets and receiving the same packets with RSSI (Received Signal Strength Indicator) and SNR through a Serial monitor as well as an OLED display.
-
-- **Lab 13: LoRa one-to-many communication setup**
+#### Lab 13: LoRa one-to-many communication setup**
   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
-- **Lab 14: Introduction to antenna modeling and simulation software 4NEC2.**
-
-- **Lab 15: Physical design of Dipole and V-dipole antennas**
+#### Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
+#### Lab 15: Physical design of Dipole and V-dipole antennas
   - Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
 
-- **Lab 16: Introduction to TinyGS**
+#### Lab 16: Introduction to TinyGS**
 
-- **Lab 17: Setting up a TinyGS ground station**
+#### Lab 17: Setting up a TinyGS ground station
   Satellite communication is the transfer of information using artificial satellites           
   that have been launched into Earth's orbit, transmitting and relaying information
   from one place to another on a global scale.
@@ -243,7 +241,7 @@ We had recieved about 49 telemetery packets from the different satelites. The da
 
 
 
-- **Lab 18: Processing TLE data with Python**
+#### Lab 18: Processing TLE data with Python
   A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
   suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. The TLE data representation is specific to the simplified perturbations 
   models (SGP, SGP4, SDP4, SGP8 and SDP8), so any algorithm using a TLE as a data source must implement one of the SGP models to correctly compute the state at a time of interest. TLEs can describe the 
