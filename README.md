@@ -248,8 +248,6 @@ LoRa technology continues to gain popularity due to its robust performance, long
 
 ![Screenshot 2024-07-12 213606](https://github.com/user-attachments/assets/5dc3c3be-8554-44bc-b3c0-7a8f362b9f17)
 
- ### LoRa + ESP32
- Combining LoRa and ESP32 allows you to leverage the strengths of each technology to create powerful IoT applications that require long-range communication capabilities along with the processing power and versatility of the ESP32 microcontroller. Here’s how you can effectively integrate LoRa with ESP32:
 
 
 
