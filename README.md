@@ -422,7 +422,7 @@ LoRa technology continues to gain popularity due to its robust performance, long
  -Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
   extracting information from the signal
   
--Computed the FFT and FSK of the above signal and plot it.
+-Computed the [FFT](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FFT)  and [FSK](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FSK) of the above signal and plot it.
     -We have notice the FFT resolution is very limited for a single cycle.
 - Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
   
