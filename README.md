@@ -399,7 +399,13 @@ LoRa technology continues to gain popularity due to its robust performance, long
 
 #### Lab 6: Controlling an LED through serial monitor
   - Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands.
-  - 
+  - Serial.begin(9600): Initializes serial communication with a baud rate of 9600. Make sure the baud rate in the Serial Monitor matches this value.
+  - pinMode(ledPin, OUTPUT): Configures ledPin (GPIO 13) as an output pin, which will control the LED.
+  - Serial.available(): Checks if there are any bytes available to read from the serial input buffer.
+  - Serial.read(): Reads the next byte of data from the serial port. In this case, it expects '0' to turn the LED OFF and '1' to turn the LED ON.
+  - digitalWrite(ledPin, HIGH) and digitalWrite(ledPin, LOW): These functions control the state of ledPin, setting it HIGH (ON) or LOW (OFF) based on the command received from the serial monitor.
+  - Serial.println(): Prints a message back to the serial monitor indicating the current state of the LED.
+   
 
 #### Lab 7: I2C-based OLED Display control
   - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
@@ -413,10 +419,13 @@ LoRa technology continues to gain popularity due to its robust performance, long
 - Here is the code :
   [I2C](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/I2C%20OLED%20display)
 #### Lab 8: Introduction Signal Processing using Python
+ -Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
+  extracting information from the signal
   
-  - Compute the `FFT` of the above signal and plot it.
-    - We  noticed that  the FFT resolution is very limited for a single cycle.
-  - Created a another  signal of frequency `3MHz`, add it to above signal and do `FFT` for the resultant signal.
+-Computed the FFT and FSK of the above signal and plot it.
+    -We have notice the FFT resolution is very limited for a single cycle.
+- Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
+  
   
 #### Lab 9: I2C temperature sensor interface
   - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
