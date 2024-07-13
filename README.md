@@ -419,31 +419,50 @@ LoRa technology continues to gain popularity due to its robust performance, long
 - Here is the code :
   [I2C](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/I2C%20OLED%20display)
 #### Lab 8: Introduction Signal Processing using Python
- -Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
-  extracting information from the signal
+   -Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
+    extracting information from the signal
   
--Computed the [FFT](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FFT)  and [FSK](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FSK) of the above signal and plot it.
-    -We have notice the FFT resolution is very limited for a single cycle.
-- Created another a signal of frequency 3MHz, add it to above signal and do FFT for the resultant signal.
+  -Computed the [FFT](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FFT)  and [FSK](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FSK) 
+  of the above signal and plot it.
+    -We have notice the FFT resolution is very limited for a single cycle. 
+  - Created another a signal of frequency 3MHz, add it to above signal and do  <img align="right" width="400" height="300" src="https://github.com/user-attachments/assets/668c124c-3296-4240-982d-0e4dd077ecbc"> 
+    FFT for the resultant signal.
+    
+     ![d95b987c-21c5-4ba0-b83f-dab6ad61e55f (2)](https://github.com/user-attachments/assets/632a4421-390b-48b2-a52d-9a06ff222abd)
+
+
+    
+
   
   
 #### Lab 9: I2C temperature sensor interface
   - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
+  - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
+  - Interfacing an I2C temperature sensor with a microcontroller like the ESP32 involves reading temperature data from the sensor using the I2C protocol.
+  -  example demonstrates how to interface an I2C temperature sensor (LM75A) with an ESP32 using the Arduino IDE.
+  -  By leveraging libraries like Adafruit LM75A, we can easily read temperature data from the sensor and integrate it into various IoT and embedded projects.
 
 #### Lab 10: Introduction to LoRa module
   - Introduction to architecture and pin configuration of *Ra-02 Lora transceiver module* and *SPI (Serial Peripheral Interface)* communication.
+     -LoRa is a wireless modulation technique derived from Chirp Spread Spectrum (CSS) technology. It encodes information on radio waves using chirp pulses - similar to the way dolphins and bats communicate.
+      LoRa modulated transmission is robust against disturbances and can be received across great distances
 
 #### Lab 11: LoRa communication
   - Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
+     - A long-range radio (LoRa) sensor is a method of transmitting data for the Internet of Things (IoT) and machine-to-machine (M2M) devices through the cloud. LoRa sensors have a wide range of 
+      compatibilities, allowing you to connect them with various machines, devices and even animals and people.
 
 #### Lab 12: Communication between two LoRa nodes
+ -Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+  This scenario is typical in applications where a central node or gateway broadcasts information to multiple sensor nodes spread across a wide area.
+
  - We have sent text packets and received the text packets with RSSI (Received Signal Strength Indicator) and SNR through Serial monitor.
- - [sender](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/transmitter)
+  [sender](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Sender%20Serial%20Monitor)
 
-- [reciever](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/reciever)
+- [reciever](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Reciever%20Serial%20Monitor)
 
-We had also sensed temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets.
-[temperature and humidity](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/temp%20sensor)
+The temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets is as folllws:
+[temperature and humidity](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Humidity%20Temp%20Display)
 #### Lab 13: LoRa one-to-many communication setup
   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
 #### Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
