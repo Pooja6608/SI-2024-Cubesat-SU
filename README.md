@@ -35,18 +35,24 @@ releasing these CubeSats into their intended orbits once the primary mission of 
 The development of a CubeSat typically follows several key phases, each essential for ensuring its successful deployment and mission performance:
 1. Conceptualization and Mission Definition:
    - *Mission Definition*: Identify the mission objectives, scientific goals, or technology demonstration aims.
-   - *Conceptual Design*: Determine the basic configuration and size of the CubeSat (e.g., 1U, 2U, 3U) based on payload requirements and mission objectives.
+   - *Conceptual Design*: Determine the basic configuration and size of the CubeSat (e.g., 1U, 2U, 3U) based on payload requirements   (<img align="right" width="400" height="400" src="https://github.com/user-attachments/assets/ba5e363a-f84a-4e99-992e-cdc1a9a8d512"> ...)  
+      and mission objectives.
    - *Feasibility Study*: Assess the technical feasibility and potential challenges associated with achieving the mission goals.
 
 2. Preliminary Design Phase (Phase A):
-   - *System Requirements*: Define detailed mission and system requirements, including subsystems like power, communication, attitude control, and payload.
-   - *Preliminary Design*: Develop initial designs and concepts for the CubeSat structure, subsystems, and integration approach.
-   - *Concept Review*: Conduct a review to evaluate the feasibility of the preliminary design and make adjustments as necessary.
+   - *System Requirements*: Define detailed mission and system requirements, including subsystems
+     like power, communication, attitude control, and payload.
+   - *Preliminary Design*: Develop initial designs and concepts for the CubeSat structure,
+     subsystems, and integration approach.
+   - *Concept Review*: Conduct a review to evaluate the feasibility of the preliminary design
+     and make adjustments as necessary.
 
 3. Detailed Design Phase (Phase B):
    - *Detailed Design*: Refine the design based on feedback from Phase A. Develop detailed specifications and plans for each subsystem and component.
-   - *Manufacturing Plans*: Prepare detailed manufacturing plans for all CubeSat components, considering space-grade materials and fabrication techniques.
-   - *Testing Plans*: Develop plans for environmental testing (thermal vacuum, vibration, radiation) to validate the CubeSat's design and ensure it can withstand the harsh conditions of space.
+   - *Manufacturing Plans*: Prepare detailed manufacturing plans for all CubeSat components, considering space-grade materials and fabrication
+      techniques.
+   - *Testing Plans*: Develop plans for environmental testing (thermal vacuum, vibration, radiation) to validate the CubeSat's design
+      and ensure it can withstand the harsh conditions of space.
 
 4. Manufacturing, Integration, and Testing Phase (Phase C):
    - *Component Manufacturing*: Manufacture and procure all necessary components and subsystems according to the detailed design specifications.
@@ -67,9 +73,13 @@ The development of a CubeSat typically follows several key phases, each essentia
    - *Decommissioning*: If necessary, plan for the safe decommissioning or deorbiting of the CubeSat at the end of its mission.
    - *Data Dissemination*: Archive mission data and prepare final reports or publications summarizing mission achievements and findings.
    - *Lessons Learned*: Conduct a review to identify lessons learned and areas for improvement in future CubeSat missions.
+  
+    
+
+
      
-![image](https://github.com/user-attachments/assets/35a1a09f-b3d0-48b5-811d-957acd45a6b9)
-## Launching 
+
+## Deploying
  ![two_cubesats_deployed_from_the_international_space_station](https://github.com/user-attachments/assets/6e151d27-4012-44b4-98cd-94ab9e8f2003)
 
 
