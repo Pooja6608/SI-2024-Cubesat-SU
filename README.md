@@ -453,49 +453,55 @@ LoRa technology continues to gain popularity due to its robust performance, long
       compatibilities, allowing you to connect them with various machines, devices and even animals and people.
 
 #### Lab 12: Communication between two LoRa nodes
- -Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
-  This scenario is typical in applications where a central node or gateway broadcasts information to multiple sensor nodes spread across a wide area.
+   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+     This scenario is typical in applications where a central node or gateway broadcasts information to multiple sensor nodes spread across a wide area.
 
- - We have sent text packets and received the text packets with RSSI (Received Signal Strength Indicator) and SNR through Serial monitor.
-  [sender](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Sender%20Serial%20Monitor)
+   - We have sent text packets and received the text packets with RSSI (Received Signal Strength Indicator) and SNR through Serial monitor.
+    [sender](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Sender%20Serial%20Monitor) and [reciever](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Reciever%20Serial%20Monitor)
 
-- [reciever](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/LoRa%20Reciever%20Serial%20Monitor)
-
-The temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets is as folllws:
-[temperature and humidity](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Humidity%20Temp%20Display)
+   The temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets is as folllws:
+   [temperature and humidity](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Humidity%20Temp%20Display)
 #### Lab 13: LoRa one-to-many communication setup
   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+  - This scenario is typical in applications where a central node or gateway broadcasts information to multiple sensor nodes spread across a wide area.
+  - Components Needed:
+     *  LoRa-enabled devices (e.g., LoRa modules, LoRaWAN gateways)
+     * Microcontroller development boards (e.g., Arduino with LoRa shield)
+     * Antennas suitable for LoRa frequency bands
+     *  Power supply (e.g., batteries or power adapters)
 #### Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
+   - 4NEC2 is a popular antenna modeling and simulation software used primarily for designing and analyzing antennas.
+    - It is based on the Numerical Electromagnetics Code (NEC-2) simulation engine, which is a method of moments (MoM) solver for electromagnetic structures.
+    - [4nec2](LABS/4nec2)
 #### Lab 15: Physical design of Dipole and V-dipole antennas
   - Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
+  -  **Design Considerations for Both Antennas:**
+        - **Frequency of Operation:** Determine the wavelength (λ) corresponding to the operating frequency to calculate the appropriate dipole lengths.
+        - **Environment:** Consider the surroundings (e.g., near buildings, ground plane effects) as they can affect the antenna's impedance and radiation pattern.
+        - **Simulation and Testing:** Use antenna modeling software (like 4NEC2) or practical measurements to validate antenna performance and adjust dimensions as needed.
+        - **Feedline Matching:** Implement baluns or impedance matching networks to ensure efficient power transfer between the transmitter and antenna.
+          ![8974c8b0-3d0e-4d3c-b8fa-b2516a8021c4 (2)](https://github.com/user-attachments/assets/d3b20333-5d7a-4edd-8674-aa7a6146a853)
+
 
 #### Lab 16: Introduction to TinyGS
+ -  The Tiny GS kit allows one to build a ground station capable of receiving telemetry from currently 14+ active satellites. 
 
 #### Lab 17: Setting up a TinyGS ground station
-  Satellite communication is the transfer of information using artificial satellites           
-  that have been launched into Earth's orbit, transmitting and relaying information
-  from one place to another on a global scale.
-  [SITBBS_02.xlsx](https://github.com/user-attachments/files/16190096/SITBBS_02.xlsx)
+ - Plug in your ESP to a USB port. It will install TinyGS 2403242 to it.
+ - Hit "Install" and select the correct COM port. No device found?
+ - MQTT credentials (First join the group here)
+ - Then open a private chat with [@tinygs_personal_bot](https://t.me/tinygs_personal_bot) and ask /mqtt
+ - First time board boot, connect to the wifi AP "My TinyGS" to configure it.
+ - Get TinyGS installed and connected in less than 5 minutes!
 
-  ![f23f8a8e-ddc3-48df-843a-f847bcb5b307 (4)](https://github.com/user-attachments/assets/11af943b-c581-4230-995d-e1489607f9f0)
+   <img width="752" alt="WWW" src="https://github.com/Rajesh100903/SI-2024-22BECB73/assets/173932157/0802292e-3368-4b23-9260-99e6ac131e32">
 
-  
+  <img width="322" alt="W is worst" src="https://github.com/Rajesh100903/SI-2024-22BECB73/assets/173932157/7e5f54f8-42f7-4e9c-adf1-33e4f8ffea55">
 
+  The link to our tiny GS research station is 
+  [SITBBS_02](https://tinygs.com/station/SITBBS2_0GS@5483354857)
 
-    
-
-
- 
-We have set up a ground station recieving telemetary packets from the satellite passing by. 
-
-<img width="752" alt="WWW" src="https://github.com/Rajesh100903/SI-2024-22BECB73/assets/173932157/0802292e-3368-4b23-9260-99e6ac131e32">
-
-<img width="322" alt="W is worst" src="https://github.com/Rajesh100903/SI-2024-22BECB73/assets/173932157/7e5f54f8-42f7-4e9c-adf1-33e4f8ffea55">
-
-The link to our tiny GS research station is 
-[SITBBS_02](https://tinygs.com/station/SITBBS2_0GS@5483354857)
-
-We had recieved about 49 telemetery packets from the different satelites. The data is as follows--[SITBBS_02.xlsx](https://github.com/user-attachments/files/16190096/SITBBS_02.xlsx)
+  We had recieved about 49 telemetery packets from the different satelites. The data is as follows--[SITBBS_02.xlsx](https://github.com/user-attachments/files/16190096/SITBBS_02.xlsx)
 
 
 
@@ -503,13 +509,19 @@ We had recieved about 49 telemetery packets from the different satelites. The da
 
 
 #### Lab 18: Processing TLE data with Python
- A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
- suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
+   A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
+   suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
 
    * Here is the  code for latitude and longitude generation using TLE is as follows->[here](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
 
   
    * the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
+#### Lab 19: Simulating Digital Spread Spectrum Modulation
+  - Resimulate FSK from Lab 8
+  - Introduce code to convert the digital data into spread spectrum before modulating it to a higher frequency.
+  - Simulating Digital Spread Spectrum Modulation involves using software tools to model and analyze the behavior of spread spectrum communication techniques, which are widely used in wireless communication 
+   systems for their robustness against interference and security advantages.
+  - Spread spectrum modulation techniques spread the signal over a wider bandwidth compared to the minimum necessary for the transmission of information. 
  
 
 
