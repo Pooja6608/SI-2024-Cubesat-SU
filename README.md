@@ -509,8 +509,9 @@ LoRa technology continues to gain popularity due to its robust performance, long
 
 
 #### Lab 18: Processing TLE data with Python
+
    A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
-   suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
+    suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
 
    * Here is the  code for latitude and longitude generation using TLE is as follows->[here](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
 
