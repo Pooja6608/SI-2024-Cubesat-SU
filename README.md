@@ -189,19 +189,20 @@ The development of a CubeSat typically follows several key phases, each essentia
 
   ### Properties and Interactions:
 
-  - **Speed**: Electromagnetic waves travel at the speed of light (approximately 3 × 10^8 meters per second) in a vacuum.
+   - **Speed**: Electromagnetic waves travel at the speed of light (approximately 3 × 10^8 meters per second) in a vacuum.
   
-  - **Wave-Particle Duality**: Electromagnetic radiation exhibits both wave-like and particle-like properties (photons).
+   - **Wave-Particle Duality**: Electromagnetic radiation exhibits both wave-like and particle-like properties (photons).
 
-  - **Absorption and Emission**: Different materials interact with electromagnetic waves in various ways, absorbing or emitting radiation based on their properties.
+   - **Absorption and Emission**: Different materials interact with electromagnetic waves in various ways, absorbing or emitting radiation based on their properties.
 
-  - **Energy and Frequency Relationship**: The energy of electromagnetic radiation increases with frequency (E = hf), where h is Planck's constant and f is the frequency.
+   - **Energy and Frequency Relationship**: The energy of electromagnetic radiation increases with frequency (E = hf), where h is Planck's constant and f is the frequency.
 # LoRa BASICS
 LoRa (Long Range) is a wireless communication technology developed by Semtech Corporation that enables long-range, low-power communication between devices. Here’s a detailed description of LoRa and its key features:
 
-### Overview:
+ ### Overview:
 
-- **Purpose**: LoRa technology is designed to enable long-distance communication with minimal power consumption, making it ideal for Internet of Things (IoT) applications where devices need to transmit small amounts of data over extended ranges.
+  - **Purpose**: LoRa technology is designed to enable long-distance communication with minimal power consumption, making it ideal for Internet of Things (IoT) applications where devices need to transmit small 
+  amounts of data over extended ranges.
 
 - **Key Features**:
 
@@ -209,7 +210,8 @@ LoRa (Long Range) is a wireless communication technology developed by Semtech Co
    
    2. **Low Power**: LoRa devices operate at ultra-low power consumption levels, enabling battery-operated devices to operate for years without frequent battery changes or recharging.
    
-   3. **Scalability**: LoRa networks can support thousands of devices within a single network, making it scalable for large-scale IoT deployments.      (<img align="right" width="500" height="500" src="https://github.com/user-attachments/assets/07d26a2a-d046-48f0-91d6-ae864edd0eef">
+   3. **Scalability**: LoRa networks can support thousands of devices within a single network, making it scalable for large-scale IoT deployments.      (<img align="right" width="500" height="500" 
+          src="https://github.com/user-attachments/assets/07d26a2a-d046-48f0-91d6-ae864edd0eef">
    
    4. **Adaptive Data Rate (ADR)**: LoRa devices can dynamically adjust their data rate and transmit power based on the communication conditions, optimizing energy efficiency and extending battery life.
    
@@ -219,34 +221,34 @@ LoRa (Long Range) is a wireless communication technology developed by Semtech Co
 
 ### Components of LoRa Technology:
 
-- **End Devices**: Devices equipped with LoRa transceivers that transmit and receive data.
+  - **End Devices**: Devices equipped with LoRa transceivers that transmit and receive data.
   
-- **Gateways**: Devices that receive LoRa signals from end devices and forward them to a network server via Ethernet, Wi-Fi, or cellular connectivity.
+  - **Gateways**: Devices that receive LoRa signals from end devices and forward them to a network server via Ethernet, Wi-Fi, or cellular connectivity.
   
-- **Network Server**: Manages the communication between gateways and applications, handling device authentication, encryption, and data routing.
+  - **Network Server**: Manages the communication between gateways and applications, handling device authentication, encryption, and data routing.
   
-- **Applications**: Software applications that process and analyze data received from LoRa devices, enabling various IoT use cases such as smart cities, agriculture, asset tracking, and industrial monitoring.
+  - **Applications**: Software applications that process and analyze data received from LoRa devices, enabling various IoT use cases such as smart cities, agriculture, asset tracking, and industrial monitoring.
 
 ### Applications of LoRa Technology:
 
-- **Smart Cities**: Monitoring and managing city infrastructure such as parking, street lighting, and waste management.
+  - **Smart Cities**: Monitoring and managing city infrastructure such as parking, street lighting, and waste management.
   
-- **Agriculture**: Soil monitoring, weather stations, and livestock tracking.
+  - **Agriculture**: Soil monitoring, weather stations, and livestock tracking.
   
-- **Industrial IoT**: Asset tracking, predictive maintenance, and supply chain management.
+  - **Industrial IoT**: Asset tracking, predictive maintenance, and supply chain management.
   
-- **Smart Homes**: Remote monitoring and control of home appliances and security systems.
+  - **Smart Homes**: Remote monitoring and control of home appliances and security systems.
 
 ### Development and Adoption:
 
-- **LoRa Alliance**: An industry organization that promotes and standardizes LoRaWAN technology, ensuring interoperability and driving global adoption.
+  - **LoRa Alliance**: An industry organization that promotes and standardizes LoRaWAN technology, ensuring interoperability and driving global adoption.
   
-- **Open Source**: LoRa technology benefits from a growing community of developers and enthusiasts contributing to open-source projects and libraries.
+  - **Open Source**: LoRa technology benefits from a growing community of developers and enthusiasts contributing to open-source projects and libraries.
 
 LoRa technology continues to gain popularity due to its robust performance, long-range capability, and low-power consumption, making it a versatile choice for a wide range of IoT applications where reliable and cost-effective communication over long distances is essential.
 ### LoRa Transceiver (Radio) Architecture
 
-![Screenshot 2024-07-12 213606](https://github.com/user-attachments/assets/5dc3c3be-8554-44bc-b3c0-7a8f362b9f17)
+  ![Screenshot 2024-07-12 213606](https://github.com/user-attachments/assets/5dc3c3be-8554-44bc-b3c0-7a8f362b9f17)
 
 
 
@@ -376,13 +378,13 @@ LoRa technology continues to gain popularity due to its robust performance, long
 
 We had also sensed temperature and humidity packets through DHT 21 and sent it through LoRa module with ESP 32 board to a serial monitor in form of packets.
 [temperature and humidity](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/temp%20sensor)
-#### Lab 13: LoRa one-to-many communication setup**
+#### Lab 13: LoRa one-to-many communication setup
   - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
 #### Lab 14: Introduction to antenna modeling and simulation software 4NEC2.
 #### Lab 15: Physical design of Dipole and V-dipole antennas
   - Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
 
-#### Lab 16: Introduction to TinyGS**
+#### Lab 16: Introduction to TinyGS
 
 #### Lab 17: Setting up a TinyGS ground station
   Satellite communication is the transfer of information using artificial satellites           
@@ -416,13 +418,13 @@ We had recieved about 49 telemetery packets from the different satelites. The da
 
 
 #### Lab 18: Processing TLE data with Python
-  A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
-  suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
+ A two-line element set (TLE, or more rarely 2LE) or three-line element set (3LE) is a data format encoding a list of orbital elements of an Earth-orbiting object for a given point in time, the epoch. Using a 
+ suitable prediction formula, the state (position and velocity) at any point in the past or future can be estimated to some accuracy. 
 
    * Here is the  code for latitude and longitude generation using TLE is as follows->[here](https://github.com/Rajesh100903/SI-2024-22BECB73/blob/main/Lab/TLE)
 
   
-  * the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
+   * the location of satelite is -[Lat,Long](https://www.google.com/maps/search/?api=1&query=29.54667195811989,-151.8386296562339)  
  
 
 
