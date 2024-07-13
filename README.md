@@ -2,7 +2,8 @@
 
 
 
-![csli_compliation_gif](https://github.com/user-attachments/assets/e6f466a1-aa49-4baa-aaab-dbbdb22d5d00)
+   ![CAPSTONE-Mission](https://github.com/user-attachments/assets/880d4d86-70a6-48e2-a440-62ef0b8d1207)
+
 
 # Introduction To CubeSats
 
@@ -195,6 +196,60 @@ The development of a CubeSat typically follows several key phases, each essentia
   - **Absorption and Emission**: Different materials interact with electromagnetic waves in various ways, absorbing or emitting radiation based on their properties.
 
   - **Energy and Frequency Relationship**: The energy of electromagnetic radiation increases with frequency (E = hf), where h is Planck's constant and f is the frequency.
+# LoRa BASICS
+LoRa (Long Range) is a wireless communication technology developed by Semtech Corporation that enables long-range, low-power communication between devices. Here’s a detailed description of LoRa and its key features:
+
+### Overview:
+
+- **Purpose**: LoRa technology is designed to enable long-distance communication with minimal power consumption, making it ideal for Internet of Things (IoT) applications where devices need to transmit small amounts of data over extended ranges.
+
+- **Key Features**:
+
+   1. **Long Range**: LoRa devices can achieve ranges of several kilometers in urban environments and over 10 kilometers in rural areas, depending on the line-of-sight conditions and environmental factors.
+   
+   2. **Low Power**: LoRa devices operate at ultra-low power consumption levels, enabling battery-operated devices to operate for years without frequent battery changes or recharging.
+   
+   3. **Scalability**: LoRa networks can support thousands of devices within a single network, making it scalable for large-scale IoT deployments.      (<img align="right" width="500" height="500" src="https://github.com/user-attachments/assets/07d26a2a-d046-48f0-91d6-ae864edd0eef">
+   
+   4. **Adaptive Data Rate (ADR)**: LoRa devices can dynamically adjust their data rate and transmit power based on the communication conditions, optimizing energy efficiency and extending battery life.
+   
+   5. **Secure Communication**: LoRaWAN (LoRa Wide Area Network) protocol, built on top of LoRa technology, incorporates security features such as encryption and authentication to ensure secure communication between devices and network servers.
+   
+   6. **License-free Spectrum**: LoRa operates in the Industrial, Scientific, and Medical (ISM) bands, such as 868 MHz in Europe and 915 MHz in North America, which are license-free and globally available.
+
+### Components of LoRa Technology:
+
+- **End Devices**: Devices equipped with LoRa transceivers that transmit and receive data.
+  
+- **Gateways**: Devices that receive LoRa signals from end devices and forward them to a network server via Ethernet, Wi-Fi, or cellular connectivity.
+  
+- **Network Server**: Manages the communication between gateways and applications, handling device authentication, encryption, and data routing.
+  
+- **Applications**: Software applications that process and analyze data received from LoRa devices, enabling various IoT use cases such as smart cities, agriculture, asset tracking, and industrial monitoring.
+
+### Applications of LoRa Technology:
+
+- **Smart Cities**: Monitoring and managing city infrastructure such as parking, street lighting, and waste management.
+  
+- **Agriculture**: Soil monitoring, weather stations, and livestock tracking.
+  
+- **Industrial IoT**: Asset tracking, predictive maintenance, and supply chain management.
+  
+- **Smart Homes**: Remote monitoring and control of home appliances and security systems.
+
+### Development and Adoption:
+
+- **LoRa Alliance**: An industry organization that promotes and standardizes LoRaWAN technology, ensuring interoperability and driving global adoption.
+  
+- **Open Source**: LoRa technology benefits from a growing community of developers and enthusiasts contributing to open-source projects and libraries.
+
+LoRa technology continues to gain popularity due to its robust performance, long-range capability, and low-power consumption, making it a versatile choice for a wide range of IoT applications where reliable and cost-effective communication over long distances is essential.
+### LoRa Transceiver (Radio) Architecture
+
+![Screenshot 2024-07-12 213606](https://github.com/user-attachments/assets/5dc3c3be-8554-44bc-b3c0-7a8f362b9f17)
+
+ ### LoRa + ESP32
+ Combining LoRa and ESP32 allows you to leverage the strengths of each technology to create powerful IoT applications that require long-range communication capabilities along with the processing power and versatility of the ESP32 microcontroller. Here’s how you can effectively integrate LoRa with ESP32:
 
 
 
