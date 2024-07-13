@@ -419,7 +419,7 @@ LoRa technology continues to gain popularity due to its robust performance, long
 - Here is the code :
   [I2C](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/I2C%20OLED%20display)
 #### Lab 8: Introduction Signal Processing using Python
-   -Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
+   - Signal Processing is the field of science which involves the manipulation of signal from time domain to frequency and vice versa, smoothing the signal, separating the noise from signal i.e filtering, 
     extracting information from the signal
   
   -Computed the [FFT](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FFT)  and [FSK](https://github.com/Pooja6608/SI-2024-Cubesat-SU/blob/main/Arduino/Python%20Programs/FSK) 
